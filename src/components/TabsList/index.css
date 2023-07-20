@@ -1,0 +1,32 @@
+.tabHead {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+}
+
+.listCon {
+  margin-right: 10px;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.colorYellow {
+  color: #fec653;
+  border-color: #fec653;
+}
+.colorWhite {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 575px) {
+  .button {
+    font-size: 20px;
+  }
+}
